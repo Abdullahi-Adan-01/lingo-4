@@ -780,3 +780,11 @@ nav .toggle-btn {
 .price-3 img {
     width: 120px;
 }
+
+@media only screen and (min-width:740px) and (max-width:850px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
